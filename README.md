@@ -1,20 +1,20 @@
 # emoji-farm
 
-<!-- im thinking ill do a major README re-write soon -->
+What is emoji-farm, you may be asking. Well, let me educate you.<br>emoji-farm is something that you can import into a javascript project, to add whatever emojis you want to strings.
 
 *I would add badges but shields.io doesn't want to create anything correctly*
 
-A bunch of functions that return emojis
-
-## Install
+## How to Install
 
 `$ npm install @jaxben98/emoji-farm`
 
-or
+or, if you are using a Github repository,
 
 `$ npm install -g @jaxben98/emoji-farm`
 
-## Usage
+## But how do i use this masterpeice?
+
+It's simple.
 
 ```javascript
 const emoji = require("@jaxben98/emoji-farm");
@@ -32,11 +32,11 @@ console.log("grinning with smile eyes: " + emoji.grin(false, true));
 console.log("unicode smile: " + emoji.smile());
 //=> unicode smile: ☺️
 ```
-or, see [test.js](https://github.com/PandaBoi57/emoji-farm/blob/master/test/test.js) for a full list of emojis
+If you didn't understand this, or want to see the list of emojis, head [here](https://github.com/PandaBoi57/emoji-farm/blob/master/test/test.js)
 
 ## Things to note
 
-Some things to note is that some emojis are only available on certain platforms, or look different on other platforms. Here are all of those emojis
+Some thing to note is that some emojis are only available on certain platforms, or look different on other platforms. Here are all of those emojis:
 
 ### Looks different on other platforms
 
