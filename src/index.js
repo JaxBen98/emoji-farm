@@ -58,5 +58,5 @@ module.exports = {
         return "😗";
     },
     loved: function() {return "🥰";}, // not supported for windows, or for browsers.
-    hugging: function() {return "🤗";} // not supported for windows, but works on browsers!
+    hugging: function() {return "🤗";}, // not supported for windows, but works on browsers!
 }

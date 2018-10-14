@@ -4,7 +4,7 @@ What is emoji-farm, you may be asking. Well, let me educate you.<br>emoji-farm i
 
 *I would add badges but shields.io doesn't want to create anything correctly*
 
-## How to Install
+## How do i install it?
 
 `$ npm install @jaxben98/emoji-farm`
 
@@ -47,3 +47,7 @@ None found... *yet*
 emoji.rofl(): 🤣 <!-- an example of "looks different on other platforms" is looking at this on the NPM site, compared to github -->
 
 emoji.loved(): 🥰
+
+## FAQ
+
+lol nobody has any questions i dont think anyone has ever seen this before emoji.lol();
