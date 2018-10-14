@@ -30,7 +30,7 @@ console.log("grinning with smile eyes: " + emoji.grin(false, true));
 console.log("unicode smile: " + emoji.smile());
 //=> unicode smile: ☺️
 ```
-or, see [test.js](https://github.com/PandaBoi57/emoji-farm/blob/master/test/test.js) for usage
+or, see [test.js](https://github.com/PandaBoi57/emoji-farm/blob/master/test/test.js) for a full list of emojis
 
 ## Things to note
 
@@ -38,10 +38,10 @@ Some things to note is that some emojis are only available on certain platforms,
 
 ### Looks different on other platforms
 
-Grinning: 😁
+emoji.grin(): 😁
 
 ### Doesn't work on some platforms
 
 *I haven't tested this one on platforms other than Windows.*
 
-ROFL: 🤣 <!-- an example of "looks different on other platforms" is looking at this on the NPM site, compared to github -->
+emoji.rofl(): 🤣 <!-- an example of "looks different on other platforms" is looking at this on the NPM site, compared to github -->

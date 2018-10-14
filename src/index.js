@@ -25,9 +25,9 @@ module.exports = {
     lol: function() {return "😂";},
     rofl: function() {return "🤣";}, // not supported for windows, but works on browsers!
     wink: function() {return "😉";},
-    smile: function(smileEyes = false, sunglasses = false, heartEyes = false, basic = true) {
+    smile: function(smileEyes = false, sunglasses = false, heartEyes = false, slightSmile = false, basic = true) {
         if (basic) {
-            if ((smileEyes && sunglasses) || (smileEyes && heartEyes) || (sunglasses && heartEyes)) {
+            if ((smileEyes && sunglasses) || (smileEyes && heartEyes) || (sunglasses && heartEyes) || (slightSmile && smileEyes) || (slightSmile && sunglasses) || (slightSmile && heartEyes) || (smileEyes && sunglasses && heartEyes) || (smileEyes && sunglasses && slightSmile) || (sunglasses && slightSmile && heartEyes)) {
                 throw new Error("Only one value (except for basic) can be true");
             }
         }
@@ -42,5 +42,20 @@ module.exports = {
         }
         return "☺️"; // unicode, not emoji
     },
-    yum: function() {return "😋";}
+    yum: function() {return "😋";},
+    kiss: function(smileEyes = false, closedEyes = false, basic = true) {
+        if (basic) {
+            if (smileEyes && closedEyes) {
+                throw new Error("Only one value (except for basic) can be true");
+            }
+        }
+        if (smileEyes) {
+            return "😙";
+        }
+        if (closedEyes) {
+            return "😚";
+        }
+        return "😗";
+    },
+    loved: function() {return "🥰";} // not supported for windows, browsers haven't been checked
 }
