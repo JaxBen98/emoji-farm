@@ -1,5 +1,7 @@
 # emoji-farm
 
+<!-- im thinking ill do a major README re-write soon -->
+
 *I would add badges but shields.io doesn't want to create anything correctly*
 
 A bunch of functions that return emojis
@@ -38,10 +40,10 @@ Some things to note is that some emojis are only available on certain platforms,
 
 ### Looks different on other platforms
 
-emoji.grin(): 😁
+None found... *yet*
 
 ### Doesn't work on some platforms
 
-*I haven't tested this one on platforms other than Windows.*
-
 emoji.rofl(): 🤣 <!-- an example of "looks different on other platforms" is looking at this on the NPM site, compared to github -->
+
+emoji.loved(): 🥰
