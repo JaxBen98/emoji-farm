@@ -19,6 +19,9 @@ console.log(grinning);
 //=> 😀
 console.log("grinning emoji: " + emoji.grin());
 //=> grinning emoji: 😀
+console.log("grinning with big eyes: " + emoji.grin(true, false));
+//=> grinning with big eyes: 😃
+console.log("grinning with smile eyes: " + emoji.grin(false, true));
 ```
 
 ## Things to note
