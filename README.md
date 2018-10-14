@@ -30,7 +30,7 @@ console.log("grinning with smile eyes: " + emoji.grin(false, true));
 console.log("unicode smile: " + emoji.smile());
 //=> unicode smile: ☺️
 ```
-or, see [test.js](../blob/master/test/test.js) for usage
+or, see [test.js](../master/test/test.js) for usage
 
 ## Things to note
 
