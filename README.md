@@ -58,6 +58,8 @@ emoji.zipped(): 🤐
 
 emoji.drool(): 🤤
 
+emoji.reversed(): 🙃
+
 ## FAQ
 
 **Has the program been finished?**

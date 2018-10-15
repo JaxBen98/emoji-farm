@@ -88,5 +88,8 @@ module.exports = {
         }
         return "😛";
     },
-    drool: function() {return "🤤";} // not supported for windows, but browsers havent been checked
+    drool: function() {return "🤤";}, // not supported for windows, but works on browsers!
+    meh: function() {return "😒";},
+    confused: function() {return "😕";},
+    reversed: function() {return "🙃";}
 }

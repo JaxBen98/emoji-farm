@@ -34,3 +34,6 @@ console.log("tongue = " + emoji.tongue(false, false, false));
 console.log("tongue winking = " + emoji.tongue(true, false));
 console.log("tounge squinting = " + emoji.tongue(false, true));
 console.log("drooling = " + emoji.drool());
+console.log("meh = " + emoji.meh());
+console.log("confused = " + emoji.confused());
+console.log("reversed = " + emoji.reversed()); // not for windows
