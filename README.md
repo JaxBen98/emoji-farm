@@ -12,6 +12,10 @@ or, if you are using a Github repository,
 
 `$ npm install -g @jaxben98/emoji-farm`
 
+or, if you are a *pro*
+
+`$ npm i -g @jaxben98/emoji-farm`
+
 ## But how do i use this masterpeice?
 
 It's simple.
