@@ -37,3 +37,4 @@ console.log("drooling = " + emoji.drool());
 console.log("meh = " + emoji.meh());
 console.log("confused = " + emoji.confused());
 console.log("reversed = " + emoji.reversed()); // not for windows
+console.log("money mouth = " + emoji.moneyMouth()); // not for windows

@@ -60,6 +60,8 @@ emoji.drool(): 🤤
 
 emoji.reversed(): 🙃
 
+emoji.moneyMouth(): 🤑
+
 ## FAQ
 
 **Has the program been finished?**

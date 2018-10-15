@@ -91,5 +91,6 @@ module.exports = {
     drool: function() {return "🤤";}, // not supported for windows, but works on browsers!
     meh: function() {return "😒";},
     confused: function() {return "😕";},
-    reversed: function() {return "🙃";}
+    reversed: function() {return "🙃";},
+    moneyMouth: function() {return "🤑";} // not supported for windows, but i haven't tested browsers
 }
