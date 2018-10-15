@@ -59,4 +59,13 @@ module.exports = {
     },
     loved: function() {return "🥰";}, // not supported for windows, or for browsers.
     hugging: function() {return "🤗";}, // not supported for windows, but works on browsers!
+    think: function() {return "🤔";}, // not supported for windows, but i haven't checked browsers
+    eyebrow: function() {return "🤨";}, // not supported for windows, but i haven't checked browsers
+    neutral: function(noMouth = false) {
+        if (noMouth) {
+            return "😶";
+        }
+        return "😐";
+    },
+    expressionless: function() {return "😑"}
 }

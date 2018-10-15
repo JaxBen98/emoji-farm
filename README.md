@@ -48,6 +48,8 @@ emoji.rofl(): 🤣 <!-- an example of "looks different on other platforms" is lo
 
 emoji.loved(): 🥰
 
+emoji.think(): 🤔
+
 ## FAQ
 
 **Has the program been finished?**
