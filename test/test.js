@@ -25,3 +25,7 @@ console.log("eyebrow = " + emoji.eyebrow()); // not for windows
 console.log("neutral = " + emoji.neutral());
 console.log("no mouth = " + emoji.neutral(true));
 console.log("expressionless = " + emoji.expressionless());
+console.log("smirk = " + emoji.smirk());
+console.log("suprised = " + emoji.suprised());
+console.log("zipped = " + emoji.zipped()); // not for windows
+console.log("tired = " + emoji.tired());

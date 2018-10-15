@@ -67,5 +67,10 @@ module.exports = {
         }
         return "😐";
     },
-    expressionless: function() {return "😑"}
+    expressionless: function() {return "😑";},
+    annoyed: function() {return "🙄";}, // not supported for windows, but i haven't checked browsers
+    smirk: function() {return "😏";},
+    suprised: function() {return "😮";},
+    zipped: function() {return "🤐";}, // not supported for windows, but i haven't checked browsers
+    tired: function() {return "😫";}
 }

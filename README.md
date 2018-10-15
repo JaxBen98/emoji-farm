@@ -40,11 +40,7 @@ If you didn't understand this, or want to see the list of emojis, head [here](ht
 
 ## Things to note
 
-Some thing to note is that some emojis are only available on certain platforms, or look different on other platforms. Here are all of those emojis:
-
-### Looks different on other platforms
-
-None found... *yet*
+Some thing to note is that some emojis are only available on certain platforms. Here are all of those emojis:
 
 ### Doesn't work on some platforms
 
@@ -53,6 +49,12 @@ emoji.rofl(): 🤣 <!-- an example of "looks different on other platforms" is lo
 emoji.loved(): 🥰
 
 emoji.think(): 🤔
+
+emoji.eyebrow(): 🤨
+
+emoji.annoyed(): 🙄
+
+emoji.zipped(): 🤐
 
 ## FAQ
 
