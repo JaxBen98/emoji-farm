@@ -56,6 +56,8 @@ emoji.annoyed(): 🙄
 
 emoji.zipped(): 🤐
 
+emoji.drool(): 🤤
+
 ## FAQ
 
 **Has the program been finished?**
