@@ -50,4 +50,6 @@ emoji.loved(): 🥰
 
 ## FAQ
 
-lol nobody has any questions i dont think anyone has ever seen this before emoji.lol();
+**Has the program been finished?**
+
+*It's not even close to being done, no*
