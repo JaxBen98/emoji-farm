@@ -68,6 +68,8 @@ emoji.exploding(): 🤯
 
 emoji.hot(): 🥵
 
+emoji.cold(): 🥶
+
 ## FAQ
 
 **Has the program been finished?**

@@ -43,3 +43,5 @@ console.log("slight frown = " + emoji.frown(true));
 console.log("worried = " + emoji.worried());
 console.log("exploding head = " + emoji.exploding());
 console.log("screaming = " + emoji.screaming());
+console.log("hot = " + emoji.hot());
+console.log("cold = " + emoji.cold());

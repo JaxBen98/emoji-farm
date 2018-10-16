@@ -100,8 +100,8 @@ module.exports = {
         return "☹️";
     },
     worried: function() {return "😟";},
-    exploding: function() {return "🤯";}, // not supported for windows, but browsers havent been checked
+    exploding: function() {return "🤯";}, // not supported for windows, or for browsers.
     screaming: function() {return "😱";},
-    hot: function() {return "🥵";}, // not supported for windows, but browsers haven't been checked
+    hot: function() {return "🥵";}, // not supported for windows, or for browsers.
     cold: function() {return "🥶";} // not supported for windows, but browsers haven't been checked
 }
