@@ -144,5 +144,10 @@ module.exports = {
             return "👾";
         }
         return "👽";
+    },
+    robot: function() {return "🤖";}, // not supported for windows, but browsers haven't been checked
+    poop: function() {return "💩";},
+    cat: function() {
+        return "😺";
     }
 }

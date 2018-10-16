@@ -69,3 +69,6 @@ console.log("skull = " + emoji.skull());
 console.log("ghost = " + emoji.ghost());
 console.log("alien = " + emoji.alien(false));
 console.log("alien monster = " + emoji.alien(true));
+console.log("robot = " + emoji.robot());
+console.log("poop = " + emoji.poop());
+console.log("cat = " + emoji.cat());

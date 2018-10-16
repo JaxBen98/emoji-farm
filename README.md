@@ -102,6 +102,8 @@ emoji.neutral(false, true): 🧐
 
 emoji.nerd(): 🤓
 
+emoji.robot(): 🤖
+
 ## FAQ
 
 **Has the program been finished?**
