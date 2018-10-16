@@ -92,5 +92,12 @@ module.exports = {
     meh: function() {return "😒";},
     confused: function() {return "😕";},
     reversed: function() {return "🙃";},
-    moneyMouth: function() {return "🤑";} // not supported for windows, but i haven't tested browsers
+    moneyMouth: function() {return "🤑";}, // not supported for windows, but works on browsers!
+    frown: function(slight = false) {
+        if (slight) {
+            return "🙁"; // not supported for windows, but browsers havent been checked
+        }
+        return "☹️";
+    },
+    worried: function() {return "😟";}
 }

@@ -62,6 +62,8 @@ emoji.reversed(): 🙃
 
 emoji.moneyMouth(): 🤑
 
+emoji.frown(true): 🙁
+
 ## FAQ
 
 **Has the program been finished?**

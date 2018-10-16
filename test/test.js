@@ -38,3 +38,6 @@ console.log("meh = " + emoji.meh());
 console.log("confused = " + emoji.confused());
 console.log("reversed = " + emoji.reversed()); // not for windows
 console.log("money mouth = " + emoji.moneyMouth()); // not for windows
+console.log("frown = " + emoji.frown());
+console.log("slight frown = " + emoji.frown(true));
+console.log("worried = " + emoji.worried());
