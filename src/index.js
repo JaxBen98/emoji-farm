@@ -128,7 +128,7 @@ module.exports = {
     party: function() {return "🥳";}, // not supported for windows, or for browsers
     liar: function() {return "🤥";}, // not supported for windows, but works on browsers!
     hush: function() {return "🤫";}, // not supported for windows, or for browsers
-    nerd: function() {return "🤓";}, // not supported for windows, but browsers haven't been tested
+    nerd: function() {return "🤓";}, // not supported for windows, but works on browsers
     devil: function(angry = false) {
         if (angry) {
             return "👿";
@@ -137,5 +137,12 @@ module.exports = {
     },
     ogre: function() {return "👹"},
     goblin: function() {return "👺";},
-    skull: function() {return "💀";}
+    skull: function() {return "💀";},
+    ghost: function() {return "👻";},
+    alien: function(monster = false) {
+        if (monster) {
+            return "👾";
+        }
+        return "👽";
+    }
 }

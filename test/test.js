@@ -65,3 +65,7 @@ console.log("devil = " + emoji.devil());
 console.log("angry devil = " + emoji.devil(true));
 console.log("ogre = " + emoji.ogre());
 console.log("goblin = " + emoji.goblin());
+console.log("skull = " + emoji.skull());
+console.log("ghost = " + emoji.ghost());
+console.log("alien = " + emoji.alien(false));
+console.log("alien monster = " + emoji.alien(true));
