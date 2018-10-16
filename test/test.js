@@ -19,7 +19,6 @@ console.log("kiss = " + emoji.kiss());
 console.log("loved = " + emoji.loved()); // not for windows
 console.log("rofl = " + emoji.rofl()); // not for windows
 console.log("kiss smile eyes = " + emoji.kiss(true));
-console.log("slight smile = " + emoji.smile(false, false, false, true, false));
 console.log("think = " + emoji.think()); // not for windows
 console.log("eyebrow = " + emoji.eyebrow()); // not for windows
 console.log("neutral = " + emoji.neutral());

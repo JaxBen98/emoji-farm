@@ -1,12 +1,5 @@
 module.exports = {
-    grin: function(bigEyes = false, smileEyes = false, grinSweat = false, grinSquint = false, basic = true) {
-        // find out if we have a problem
-        if (basic) {
-            if((bigEyes && smileEyes) || (bigEyes && grinSweat) || (bigEyes && grinSquint) || (smileEyes && grinSweat) || (smileEyes && grinSquint) || (grinSweat && grinSquint) || (bigEyes && smileEyes && grinSweat) || (bigEyes && smileEyes && grinSquint) || (smileEyes && grinSweat && grinSquint) || (bigEyes && grinSweat && grinSquint) || (bigEyes && grinSweat && grinSquint && smileEyes)) {
-                throw new Error("Only one value (except for basic) can be true, i.e for a sweating grin you would use grin(false, false, true); or grin(false, false, true, false);");
-            }
-        }
-        // find out which one they wanted
+    grin: function(bigEyes = false, smileEyes = false, grinSweat = false, grinSquint = false) {
         if (bigEyes) {
             return "😃";
         }
@@ -25,12 +18,7 @@ module.exports = {
     lol: function() {return "😂";},
     rofl: function() {return "🤣";}, // not supported for windows, but works on browsers!
     wink: function() {return "😉";},
-    smile: function(smileEyes = false, sunglasses = false, heartEyes = false, slightSmile = false, basic = true) {
-        if (basic) {
-            if ((smileEyes && sunglasses) || (smileEyes && heartEyes) || (sunglasses && heartEyes) || (slightSmile && smileEyes) || (slightSmile && sunglasses) || (slightSmile && heartEyes) || (smileEyes && sunglasses && heartEyes) || (smileEyes && sunglasses && slightSmile) || (sunglasses && slightSmile && heartEyes)) {
-                throw new Error("Only one value (except for basic) can be true. You can disable this error by setting basic to false");
-            }
-        }
+    smile: function(smileEyes = false, sunglasses = false, heartEyes = false) {
         if (smileEyes) {
             return "😊";
         }
@@ -43,12 +31,7 @@ module.exports = {
         return "☺️"; // unicode, not emoji
     },
     yum: function() {return "😋";},
-    kiss: function(smileEyes = false, closedEyes = false, basic = true) {
-        if (basic) {
-            if (smileEyes && closedEyes) {
-                throw new Error("Only one value (except for basic) can be true. You can disable this error by setting basic to false");
-            }
-        }
+    kiss: function(smileEyes = false, closedEyes = false) {
         if (smileEyes) {
             return "😙";
         }
@@ -74,12 +57,7 @@ module.exports = {
     zipped: function() {return "🤐";}, // not supported for windows, but works for browsers!
     tired: function() {return "😫";},
     sleeping: function() {return "😴";},
-    tongue: function(winking = false, squinting = false, basic = true) {
-        if (basic) {
-            if (winking && squinting) {
-                throw new Error("Only one value (except for basic) can be true. You can disable this error by setting basic to false");
-            }
-        }
+    tongue: function(winking = false, squinting = false) {
         if (winking) {
             return "😜";
         }
@@ -112,12 +90,7 @@ module.exports = {
         }
         return "😡";
     },
-    sick: function(mask = false, thermometer = false, bandage = false, vomit = false, sneezing = false, basic = true) {
-        if (basic) {
-            if ((mask && thermometer) || (mask && bandage) || (thermometer && bandage) || (mask && vomit) || (bandage && vomit) || (thermometer && vomit) || (mask && bandage && thermometer) || (mask && bandage && vomit) || (bandage && thermometer && vomit) || (bandage && thermometer && mask && vomit)) {
-                throw new Error("Only one value (except for basic) can be true. You can disable this error by setting basic to false");
-            }
-        }
+    sick: function(mask = false, thermometer = false, bandage = false, vomit = false, sneezing = false) {
         if (mask) {
             return "😷";
         }

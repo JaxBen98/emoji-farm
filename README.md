@@ -89,3 +89,7 @@ emoji.sick(false, false, false, false, true): 🤧
 **Has the program been finished?**
 
 *It's not even close to being done, no*
+
+**Is there a way to get in contact with you?**
+
+*Try my discord, PandaBoi#4204*
