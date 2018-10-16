@@ -54,3 +54,4 @@ console.log("sick with mask = " + emoji.sick(true, false, false));
 console.log("sick with thermometer = " + emoji.sick(false, true)); // not for windows
 console.log("sick with bandages = " + emoji.sick(false, false, true)); // not for windows
 console.log("sick while vomiting = " + emoji.sick(false, false, false, true)); // not for windows
+console.log("sneezing = " + emoji.sick(false, false, false, false, true, true)); // not for windows

@@ -112,7 +112,7 @@ module.exports = {
         }
         return "😡";
     },
-    sick: function(mask = false, thermometer = false, bandage = false, vomit = false, basic = true) {
+    sick: function(mask = false, thermometer = false, bandage = false, vomit = false, sneezing = false, basic = true) {
         if (basic) {
             if ((mask && thermometer) || (mask && bandage) || (thermometer && bandage) || (mask && vomit) || (bandage && vomit) || (thermometer && vomit) || (mask && bandage && thermometer) || (mask && bandage && vomit) || (bandage && thermometer && vomit) || (bandage && thermometer && mask && vomit)) {
                 throw new Error("Only one value (except for basic) can be true. You can disable this error by setting basic to false");
@@ -129,6 +129,9 @@ module.exports = {
         }
         if (vomit) {
             return "🤮"; // not supported for windows, or for browsers
+        }
+        if (sneezing) {
+            return "🤧"; // not supported for windows, but browsers haven't been checked
         }
         return "🤢"; // not supported for windows, but works on browsers!
     }

@@ -82,6 +82,8 @@ emoji.sick(false, false, true): 🤕
 
 emoji.sick(false, false, false, true): 🤮
 
+emoji.sick(false, false, false, false, true): 🤧
+
 ## FAQ
 
 **Has the program been finished?**
