@@ -88,6 +88,16 @@ emoji.smile(false, false, false, false, true): 🤠
 
 emoji.smile(false, false, false, false, false, true): 🤡
 
+emoji.party(): 🤡
+
+emoji.dizzy(true): 🥴
+
+emoji.liar(): 🤥
+
+emoji.hush(): 🤫
+
+emoji.smile(false, true): 🧐
+
 ## FAQ
 
 **Has the program been finished?**

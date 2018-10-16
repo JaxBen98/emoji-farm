@@ -32,10 +32,10 @@ module.exports = {
             return "😇";
         }
         if (cowboyHat) {
-            return "🤠"; // not supported for windows, but browsers haven't been checked
+            return "🤠"; // not supported for windows, but works on browsers!
         }
         if (clown) {
-            return "🤡"; // not supported for windows, but browsers haven't been checked
+            return "🤡"; // not supported for windows, but works on browsers!
         }
         return "☺️"; // unicode, not emoji
     },
@@ -53,9 +53,12 @@ module.exports = {
     hugging: function() {return "🤗";}, // not supported for windows, but works on browsers!
     think: function() {return "🤔";}, // not supported for windows, but works on browsers!
     eyebrow: function() {return "🤨";}, // not supported for windows, or for browsers
-    neutral: function(noMouth = false) {
+    neutral: function(noMouth = false, monocle = false) {
         if (noMouth) {
             return "😶";
+        }
+        if (monocle) {
+            return "🧐"; // not supported for windows, but browsers haven't been checked
         }
         return "😐";
     },
@@ -92,7 +95,12 @@ module.exports = {
     hot: function() {return "🥵";}, // not supported for windows, or for browsers.
     cold: function() {return "🥶";}, // not supported for windows, or for browsers.
     crazy: function() {return "🤪";}, // not supported for windows, or for browsers
-    dizzy: function() {return "😵";},
+    dizzy: function(drunk = false) {
+        if (drunk) {
+            return "🥴"; // not supported for windows, but browsers haven't been checked
+        }
+        return "😵";
+    },
     angry: function(swear = false) {
         if (swear) {
             return "🤬"; // not supported for windows, or for browsers
@@ -116,5 +124,8 @@ module.exports = {
             return "🤧"; // not supported for windows, but works on browsers!
         }
         return "🤢"; // not supported for windows, but works on browsers!
-    }
+    },
+    party: function() {return "🤡";}, // not supported for windows, but browsers haven't been checked
+    liar: function() {return "🤥";}, // not supported for windows, but browsers haven't been checked
+    hush: function() {return "🤫";} // not supported for windows, but browsers haven't been checked
 }
