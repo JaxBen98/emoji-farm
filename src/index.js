@@ -18,7 +18,7 @@ module.exports = {
     lol: function() {return "😂";},
     rofl: function() {return "🤣";}, // not supported for windows, but works on browsers!
     wink: function() {return "😉";},
-    smile: function(smileEyes = false, sunglasses = false, heartEyes = false) {
+    smile: function(smileEyes = false, sunglasses = false, heartEyes = false, halo = false, cowboyHat = false, clown = false) {
         if (smileEyes) {
             return "😊";
         }
@@ -27,6 +27,15 @@ module.exports = {
         }
         if (heartEyes) {
             return "😍";
+        }
+        if (halo) {
+            return "😇";
+        }
+        if (cowboyHat) {
+            return "🤠"; // not supported for windows, but browsers haven't been checked
+        }
+        if (clown) {
+            return "🤡"; // not supported for windows, but browsers haven't been checked
         }
         return "☺️"; // unicode, not emoji
     },
@@ -104,7 +113,7 @@ module.exports = {
             return "🤮"; // not supported for windows, or for browsers
         }
         if (sneezing) {
-            return "🤧"; // not supported for windows, but browsers haven't been checked
+            return "🤧"; // not supported for windows, but works on browsers!
         }
         return "🤢"; // not supported for windows, but works on browsers!
     }

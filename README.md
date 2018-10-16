@@ -36,7 +36,7 @@ console.log("grinning with smile eyes: " + emoji.grin(false, true));
 console.log("unicode smile: " + emoji.smile());
 //=> unicode smile: ☺️
 ```
-If you didn't understand this, or want to see the list of emojis, head [here](https://github.com/PandaBoi57/emoji-farm/blob/master/test/test.js)
+If you didn't understand this, or want to see the list of all the emojis in emoji-farm, head [here](https://github.com/PandaBoi57/emoji-farm/blob/master/test/test.js)
 
 ## Things to note
 
@@ -44,7 +44,7 @@ Some thing to note is that some emojis are only available on certain platforms. 
 
 ### Doesn't work on some platforms
 
-emoji.rofl(): 🤣 <!-- an example of "looks different on other platforms" is looking at this on the NPM site, compared to github -->
+emoji.rofl(): 🤣
 
 emoji.loved(): 🥰
 
@@ -83,6 +83,10 @@ emoji.sick(false, false, true): 🤕
 emoji.sick(false, false, false, true): 🤮
 
 emoji.sick(false, false, false, false, true): 🤧
+
+emoji.smile(false, false, false, false, true): 🤠
+
+emoji.smile(false, false, false, false, false, true): 🤡
 
 ## FAQ
 

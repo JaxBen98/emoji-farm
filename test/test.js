@@ -2,7 +2,6 @@ const emoji = require('./../src/index');
 
 var grin = emoji.grin();
 var bigEyeGrin = emoji.grin(true, false);
-var yes = true;
 
 console.log(grin);
 console.log("grin = " + emoji.grin());
@@ -14,7 +13,6 @@ console.log("lol = " + emoji.lol());
 console.log("grin squint eyes = " + emoji.grin(false, false, false, true, false));
 console.log("basic smile = " + emoji.smile()); // unicode
 console.log("smile eyes = " + emoji.smile(true));
-console.log("smile eyes = " + emoji.smile(yes));
 console.log("kiss = " + emoji.kiss());
 console.log("loved = " + emoji.loved()); // not for windows
 console.log("rofl = " + emoji.rofl()); // not for windows
@@ -54,3 +52,6 @@ console.log("sick with thermometer = " + emoji.sick(false, true)); // not for wi
 console.log("sick with bandages = " + emoji.sick(false, false, true)); // not for windows
 console.log("sick while vomiting = " + emoji.sick(false, false, false, true)); // not for windows
 console.log("sneezing = " + emoji.sick(false, false, false, false, true, true)); // not for windows
+console.log("smiling with halo = " + emoji.smile(false, false, false, true));
+console.log("cowboy = " + emoji.smile(false, false, false, false, true)); // not for windows
+console.log("clown = " + emoji.smile(false, false, false, false, false, true)); // not for windows
