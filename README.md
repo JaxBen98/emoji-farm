@@ -88,7 +88,7 @@ emoji.smile(false, false, false, false, true): 🤠
 
 emoji.smile(false, false, false, false, false, true): 🤡
 
-emoji.party(): 🤡
+emoji.party(): 🥳
 
 emoji.dizzy(true): 🥴
 

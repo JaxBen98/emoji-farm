@@ -97,7 +97,7 @@ module.exports = {
     crazy: function() {return "🤪";}, // not supported for windows, or for browsers
     dizzy: function(drunk = false) {
         if (drunk) {
-            return "🥴"; // not supported for windows, but browsers haven't been checked
+            return "🥴"; // not supported for windows, or for browsers
         }
         return "😵";
     },
@@ -125,7 +125,7 @@ module.exports = {
         }
         return "🤢"; // not supported for windows, but works on browsers!
     },
-    party: function() {return "🤡";}, // not supported for windows, but browsers haven't been checked
-    liar: function() {return "🤥";}, // not supported for windows, but browsers haven't been checked
-    hush: function() {return "🤫";} // not supported for windows, but browsers haven't been checked
+    party: function() {return "🥳";}, // not supported for windows, or for browsers
+    liar: function() {return "🤥";}, // not supported for windows, but works on browsers!
+    hush: function() {return "🤫";} // not supported for windows, or for browsers
 }
