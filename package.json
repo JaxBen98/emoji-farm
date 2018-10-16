@@ -1,8 +1,8 @@
 {
     "name": "@jaxben98/emoji-farm",
-    "version": "4.2.9",
+    "version": "4.3.0",
     "description": "Get instant emojis that you can add onto strings",
-    "license": "MIT",
+    "license": "GNU General Public License",
     "repository": "PandaBoi57/emoji-farm",
     "main": "src/index.js",
     "keywords": [

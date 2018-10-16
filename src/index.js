@@ -104,11 +104,11 @@ module.exports = {
     screaming: function() {return "😱";},
     hot: function() {return "🥵";}, // not supported for windows, or for browsers.
     cold: function() {return "🥶";}, // not supported for windows, or for browsers.
-    crazy: function() {return "🤪";}, // not supported for windows, but browsers haven't been checked
+    crazy: function() {return "🤪";}, // not supported for windows, or for browsers
     dizzy: function() {return "😵";},
     angry: function(swear = false) {
         if (swear) {
-            return "🤬"; // not supported for windows, but browsers haven't been checked
+            return "🤬"; // not supported for windows, or for browsers
         }
         return "😡";
     },
@@ -122,14 +122,14 @@ module.exports = {
             return "😷";
         }
         if (thermometer) {
-            return "🤒"; // not supported for windows, but browsers haven't been checked
+            return "🤒"; // not supported for windows, but works on browsers!
         }
         if (bandage) {
-            return "🤕"; // not supported for windows, but browsers haven't been checked
+            return "🤕"; // not supported for windows, but works on browsers!
         }
         if (vomit) {
-            return "🤮"; // not supported for windows, but browsers haven't been checked
+            return "🤮"; // not supported for windows, or for browsers
         }
-        return "🤢"; // not supported for windows, but browsers haven't been checked
+        return "🤢"; // not supported for windows, but works on browsers!
     }
 }
