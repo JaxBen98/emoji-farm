@@ -64,6 +64,10 @@ emoji.moneyMouth(): 🤑
 
 emoji.frown(true): 🙁
 
+emoji.exploding(): 🤯
+
+emoji.hot(): 🥵
+
 ## FAQ
 
 **Has the program been finished?**

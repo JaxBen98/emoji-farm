@@ -95,9 +95,13 @@ module.exports = {
     moneyMouth: function() {return "🤑";}, // not supported for windows, but works on browsers!
     frown: function(slight = false) {
         if (slight) {
-            return "🙁"; // not supported for windows, but browsers havent been checked
+            return "🙁"; // not supported for windows, but works on browsers!
         }
         return "☹️";
     },
-    worried: function() {return "😟";}
+    worried: function() {return "😟";},
+    exploding: function() {return "🤯";}, // not supported for windows, but browsers havent been checked
+    screaming: function() {return "😱";},
+    hot: function() {return "🥵";}, // not supported for windows, but browsers haven't been checked
+    cold: function() {return "🥶";} // not supported for windows, but browsers haven't been checked
 }

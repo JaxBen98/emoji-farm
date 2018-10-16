@@ -41,3 +41,5 @@ console.log("money mouth = " + emoji.moneyMouth()); // not for windows
 console.log("frown = " + emoji.frown());
 console.log("slight frown = " + emoji.frown(true));
 console.log("worried = " + emoji.worried());
+console.log("exploding head = " + emoji.exploding());
+console.log("screaming = " + emoji.screaming());
