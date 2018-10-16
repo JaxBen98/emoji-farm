@@ -70,6 +70,18 @@ emoji.hot(): 🥵
 
 emoji.cold(): 🥶
 
+emoji.crazy(): 🤪
+
+emoji.angry(swear): 🤬
+
+emoji.sick(): 🤢
+
+emoji.sick(false, true): 🤒
+
+emoji.sick(false, false, true): 🤕
+
+emoji.sick(false, false, false, true): 🤮
+
 ## FAQ
 
 **Has the program been finished?**

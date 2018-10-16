@@ -103,5 +103,33 @@ module.exports = {
     exploding: function() {return "🤯";}, // not supported for windows, or for browsers.
     screaming: function() {return "😱";},
     hot: function() {return "🥵";}, // not supported for windows, or for browsers.
-    cold: function() {return "🥶";} // not supported for windows, or for browsers.
+    cold: function() {return "🥶";}, // not supported for windows, or for browsers.
+    crazy: function() {return "🤪";}, // not supported for windows, but browsers haven't been checked
+    dizzy: function() {return "😵";},
+    angry: function(swear = false) {
+        if (swear) {
+            return "🤬"; // not supported for windows, but browsers haven't been checked
+        }
+        return "😡";
+    },
+    sick: function(mask = false, thermometer = false, bandage = false, vomit = false, basic = true) {
+        if (basic) {
+            if ((mask && thermometer) || (mask && bandage) || (thermometer && bandage) || (mask && vomit) || (bandage && vomit) || (thermometer && vomit) || (mask && bandage && thermometer) || (mask && bandage && vomit) || (bandage && thermometer && vomit) || (bandage && thermometer && mask && vomit)) {
+                throw new Error("Only one value (except for basic) can be true. You can disable this error by setting basic to false");
+            }
+        }
+        if (mask) {
+            return "😷";
+        }
+        if (thermometer) {
+            return "🤒"; // not supported for windows, but browsers haven't been checked
+        }
+        if (bandage) {
+            return "🤕"; // not supported for windows, but browsers haven't been checked
+        }
+        if (vomit) {
+            return "🤮"; // not supported for windows, but browsers haven't been checked
+        }
+        return "🤢"; // not supported for windows, but browsers haven't been checked
+    }
 }
