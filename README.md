@@ -98,6 +98,10 @@ emoji.hush(): 🤫
 
 emoji.smile(false, true): 🧐
 
+emoji.neutral(false, true): 🧐
+
+emoji.nerd(): 🤓
+
 ## FAQ
 
 **Has the program been finished?**
