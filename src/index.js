@@ -103,5 +103,5 @@ module.exports = {
     exploding: function() {return "🤯";}, // not supported for windows, or for browsers.
     screaming: function() {return "😱";},
     hot: function() {return "🥵";}, // not supported for windows, or for browsers.
-    cold: function() {return "🥶";} // not supported for windows, but browsers haven't been checked
+    cold: function() {return "🥶";} // not supported for windows, or for browsers.
 }
