@@ -147,7 +147,28 @@ module.exports = {
     },
     robot: function() {return "🤖";}, // not supported for windows, but browsers haven't been checked
     poop: function() {return "💩";},
-    cat: function() {
+    cat: function(smileEyes = false, tearsOfJoy = false, heartEyes = false, smirk = false, kissing = false, tired = false, crying = false) {
+        if (smileEyes) {
+            return "😸";
+        }
+        if (tearsOfJoy) {
+            return "😹";
+        }
+        if (heartEyes) {
+            return "😻";
+        }
+        if (smirk) {
+            return "😼";
+        }
+        if (kissing) {
+            return "😽";
+        }
+        if (tired) {
+            return "🙀";
+        }
+        if (crying) {
+            return "😿";
+        }
         return "😺";
     }
 }
