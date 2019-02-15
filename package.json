@@ -3,7 +3,7 @@
     "version": "7.0.6",
     "description": "Get instant emojis that you can add onto strings",
     "license": "GNU General Public License v3.0",
-    "repository": "PandaBoi57/emoji-farm",
+    "repository": "JaxBen98/emoji-farm",
     "main": "src/index.js",
     "keywords": [
         "emoji"
