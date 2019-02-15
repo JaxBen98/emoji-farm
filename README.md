@@ -52,6 +52,12 @@ Some thing to note is that some emojis are only available on certain platforms. 
 
 `emoji.smile(true)`: 🙃
 
+`emoji.smile(false, false, false, true)`: 🥰
+
+`emoji.smile(false, false, false, false, false, true)`: 🤩
+
+`emoji.smile(false, false, false, false, false, false, true)`: 🙂
+
 ## FAQ
 
 **Has the program been finished?**
