@@ -15,7 +15,10 @@ module.exports = {
     },
     rofl: function() {return "🤣";},
     tears_of_joy: function() {return "😂";},
-    smile: function() {
+    smile: function(upside_down = false) {
+        if (upside_down) {
+            return "🙃";
+        }
         return "🙂";
     }
 }
