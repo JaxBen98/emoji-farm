@@ -13,5 +13,6 @@ module.exports = {
         }
         return "😀";
     },
-    rofl: function() {return "🤣";}
+    rofl: function() {return "🤣";},
+    tears_of_joy: function() {return "😂";}
 }
