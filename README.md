@@ -48,8 +48,6 @@ Some thing to note is that some emojis are only available on certain platforms. 
 
 `emoji.rofl()`: 🤣
 
-`emoji.smile()`: 🙂
-
 `emoji.smile(true)`: 🙃
 
 `emoji.smile(false, false, false, true)`: 🥰
