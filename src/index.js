@@ -12,5 +12,6 @@ module.exports = {
             return "😅";
         }
         return "😀";
-    }
+    },
+    rofl: function() {return "🤣";}
 }

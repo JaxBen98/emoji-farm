@@ -48,7 +48,7 @@ Some thing to note is that some emojis are only available on certain platforms. 
 
 ### Doesn't work on some platforms
 
-None yet
+`emoji.rofl()`: 🤣
 
 ## FAQ
 
