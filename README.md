@@ -18,6 +18,8 @@ or, if you are a *pro*
 
 `$ npm i -g @jaxben98/emoji-farm`
 
+You need Node 6.16.0 at minimum to run this.
+
 ## But how do i use this masterpiece?
 
 It's simple.
