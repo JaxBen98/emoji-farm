@@ -37,8 +37,6 @@ console.log("grinning with big eyes: " + emoji.grin(true, false));
 //=> grinning with big eyes: 😃
 console.log("grinning with smile eyes: " + emoji.grin(false, true));
 //=> grinning with smile eyes: 😄
-console.log("unicode smile: " + emoji.smile());
-//=> unicode smile: ☺️
 ```
 If you didn't understand this, or want to see the list of all the emojis in emoji-farm, head [here](https://github.com/PandaBoi57/emoji-farm/blob/master/test/test.js)
 

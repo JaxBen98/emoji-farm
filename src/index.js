@@ -20,5 +20,6 @@ module.exports = {
             return "🙃";
         }
         return "🙂";
-    }
+    },
+    wink: function() {return "😉";}
 }

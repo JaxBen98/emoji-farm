@@ -13,3 +13,4 @@ console.log("This next emoji is known to not show up");
 console.log(emoji.smile());
 console.log("This next emoji is known to not show up");
 console.log(emoji.smile(true));
+console.log(emoji.wink());
