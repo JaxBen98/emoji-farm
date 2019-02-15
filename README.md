@@ -50,6 +50,8 @@ Some thing to note is that some emojis are only available on certain platforms. 
 
 `emoji.rofl()`: 🤣
 
+`emoji.smile()`: 🙂
+
 ## FAQ
 
 **Has the program been finished?**

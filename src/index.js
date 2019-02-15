@@ -14,5 +14,8 @@ module.exports = {
         return "😀";
     },
     rofl: function() {return "🤣";},
-    tears_of_joy: function() {return "😂";}
+    tears_of_joy: function() {return "😂";},
+    smile: function() {
+        return "🙂";
+    }
 }
