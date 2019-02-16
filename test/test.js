@@ -1,5 +1,5 @@
 const emoji = require('./../src/index');
-
+console.log("\nEmojis in emoji-farm v7.3.6\n")
 console.log(emoji.grin());
 console.log(emoji.grin(true));
 console.log(emoji.grin(false, true));
@@ -26,3 +26,11 @@ console.log(emoji.wink());
 console.log(emoji.kiss());
 console.log(emoji.kiss(true));
 console.log(emoji.kiss(false, true));
+console.log(emoji.tongue());
+console.log(emoji.tongue(true));
+console.log(emoji.tongue(false, true));
+console.log("This next emoji is known to not show up");
+console.log(emoji.tongue(false, false, true));
+console.log(emoji.tongue(false, false, false, true));
+console.log("This next emoji is known to not show up");
+console.log(emoji.tongue(false, false, false, false, true));

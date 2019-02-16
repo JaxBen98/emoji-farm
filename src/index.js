@@ -41,5 +41,19 @@ module.exports = {
             return "😙";
         }
         return "😗";
+    },
+    tongue: function(lick_lips = false, wink = false, silly = false, squinting = false, money = false) {
+        if (lick_lips) {
+            return "😋";
+        } else if (wink) {
+            return "😜";
+        } else if (silly) {
+            return "🤪";
+        } else if (squinting) {
+            return "😝";
+        } else if (money) {
+            return "🤑";
+        }
+        return "😛";
     }
 }
