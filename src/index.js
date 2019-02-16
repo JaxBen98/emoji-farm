@@ -33,5 +33,13 @@ module.exports = {
         }
         return "☺️";
     },
-    wink: function() {return "😉";}
+    wink: function() {return "😉";},
+    kiss: function(closed = false, smile = false) {
+        if (closed) {
+            return "😚";
+        } else if (smile) {
+            return "😙";
+        }
+        return "😗";
+    }
 }

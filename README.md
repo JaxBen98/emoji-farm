@@ -38,7 +38,7 @@ console.log("grinning with big eyes: " + emoji.grin(true, false));
 console.log("grinning with smile eyes: " + emoji.grin(false, true));
 //=> grinning with smile eyes: 😄
 ```
-If you didn't understand this, or want to see the list of all the emojis in emoji-farm, head [here](https://github.com/PandaBoi57/emoji-farm/blob/master/test/test.js)
+If you didn't understand this, or want to see the list of all the emojis in emoji-farm, head [here](https://github.com/JaxBen98/emoji-farm/blob/master/test/test.js)
 
 ## Things to note
 
@@ -56,8 +56,4 @@ Some thing to note is that some emojis are only available on certain platforms. 
 
 `emoji.smile(false, false, false, false, false, false, true)`: 🙂
 
-## FAQ
-
-**Has the program been finished?**
-
-*It's not even close to being done, no*
+*This program is ***NOT*** done yet!!!1!*
