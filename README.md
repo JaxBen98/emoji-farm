@@ -6,19 +6,9 @@ What is emoji-farm, you may be asking. Well, let me educate you.<br>emoji-farm i
 
 *I would add badges but shields.io doesn't want to create anything correctly*
 
-## How do i install it?
+## Requirements
 
-`$ npm install @jaxben98/emoji-farm`
-
-or, if you are using a Github repository,
-
-`$ npm install -g @jaxben98/emoji-farm`
-
-or, if you are a *pro*
-
-`$ npm i -g @jaxben98/emoji-farm`
-
-You need Node 6.16.0 at minimum to run this.
+  * Node 6.16.0 or later
 
 ## But how do i use this masterpiece?
 

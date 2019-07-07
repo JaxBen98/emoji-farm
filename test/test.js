@@ -34,3 +34,5 @@ console.log(emoji.tongue(false, false, true));
 console.log(emoji.tongue(false, false, false, true));
 console.log("This next emoji is known to not show up");
 console.log(emoji.tongue(false, false, false, false, true));
+console.log("This next emoji is known to not show up");
+console.log(emoji.hug());

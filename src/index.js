@@ -55,5 +55,6 @@ module.exports = {
             return "🤑";
         }
         return "😛";
-    }
+    },
+    hug: function() {return "🤗";},
 }
