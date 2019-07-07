@@ -36,3 +36,5 @@ console.log("This next emoji is known to not show up");
 console.log(emoji.tongue(false, false, false, false, true));
 console.log("This next emoji is known to not show up");
 console.log(emoji.hug());
+console.log("This next emoji is known to not show up");
+console.log(emoji.blush_hand());

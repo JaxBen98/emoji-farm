@@ -57,4 +57,5 @@ module.exports = {
         return "😛";
     },
     hug: function() {return "🤗";},
+    blush_hand: function() {return "🤭";}
 }

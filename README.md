@@ -4,7 +4,7 @@ What is emoji-farm, you may be asking. Well, let me educate you.<br>emoji-farm i
 
 ## Requirements
 
-  * Node 6.16.0 or later
+  * Node 6.17.1 or later
 
 ## How to use emoji-farm
 
@@ -45,3 +45,7 @@ Some thing to note is that some emojis are only available on certain platforms. 
 `emoji.tongue(false, false, true)`: 🤪
 
 `emoji.tongue(false, false, false, false, true)`: 🤑
+
+`emoji.hug()`: 🤗
+
+`emoji.blush_hand()`: 🤭
