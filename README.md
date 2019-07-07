@@ -2,15 +2,11 @@
 
 What is emoji-farm, you may be asking. Well, let me educate you.<br>emoji-farm is something that you can import into a javascript project, to add whatever emojis you want to strings.
 
-`emoji-farm` recently received an entire rewrite. I have some new emojis to add so lets wait for that. Also, thanks for 1.7K downloads! <3
-
-*I would add badges but shields.io doesn't want to create anything correctly*
-
 ## Requirements
 
   * Node 6.16.0 or later
 
-## But how do i use this masterpiece?
+## How to use emoji-farm
 
 It's simple.
 
@@ -49,5 +45,3 @@ Some thing to note is that some emojis are only available on certain platforms. 
 `emoji.tongue(false, false, true)`: 🤪
 
 `emoji.tongue(false, false, false, false, true)`: 🤑
-
-*This program is ***NOT*** done yet!!!1!*

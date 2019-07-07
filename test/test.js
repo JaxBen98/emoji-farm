@@ -1,5 +1,5 @@
 const emoji = require('./../src/index');
-console.log("\nEmojis in emoji-farm v7.3.6\n")
+console.log("\nEmojis in emoji-farm v7.3.7\n")
 console.log(emoji.grin());
 console.log(emoji.grin(true));
 console.log(emoji.grin(false, true));
