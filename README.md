@@ -1,5 +1,7 @@
 # emoji-farm
 
+![npm](https://img.shields.io/npm/dt/@jaxben98/emoji-farm)
+
 What is emoji-farm, you may be asking. Well, let me educate you.<br>emoji-farm is something that you can import into a javascript project, to add whatever emojis you want to strings.
 
 ## Requirements
